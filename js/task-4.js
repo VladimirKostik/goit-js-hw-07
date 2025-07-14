@@ -18,5 +18,8 @@ function handleSubmit(event) {
     email,
     password
   };
-}        
+     
 
+console.log(formData);
+form.reset();
+}
